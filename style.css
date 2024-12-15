@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif, Arial;
+  padding: 0;
+}
+/* header */
+.header {
+  border-bottom: 2px solid grey;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+h1 {
+  margin: 0;
+}
+
+#wordSubmissionForm {
+  width: 400px;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+  margin: 200px auto;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+#wordSubmissionForm input[type="text"] {
+  width: 330px;
+  height: 90%;
+}
+input[type="submit"] {
+  height: 100%;
+  cursor: pointer;
+}
+.inputs {
+  margin-top: 4px;
+  height: 30px;
+  padding: 5px 0;
+}
+.output {
+  padding: 5px;
+}
+textarea[name="reversedWord"] {
+  margin-top: 4px;
+  height: 70px;
+  width: 100%;
+}
